@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoert" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8b50c44394.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/final llogo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Sandipan Paul</span> a first-year of BCA Student<br>at Adamas UniversityPassionate about technology and software development, I am dedicated to expanding my knowledge in computer applications. Eager to learn, I am building a strong foundation in programming, with a keen interest in coding and problem-solving.</h1>
+                </div>
+            </div>
+
+        </div>
+        <!-----------about----------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/user logo.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I love discovering new sites and exploring what the world has to offer. Programming excites me, especially when I get to merge different codes to create something new. The process of problem-solving and coding brings me a lot of fun and satisfaction. It’s a thrilling journey of learning and innovation that I truly enjoy.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('hobby')">Hobby</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                               <li><span>UI/UX</span><br>Designing intuitive, user-friendly web/app interfaces for seamless user experience.</li>
+                               <li><span>APP</span><br>Building responsive, efficient web apps with strong functionality and performance.</li>
+                               <li><span>WEB</span><br>Working on web development, creating responsive, dynamic, and user-friendly websites.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobby">
+                            <ul>
+                               <li><span>GAMING</span><br>Skilled in strategy, gameplay, teamwork.</li>
+                               <li><span>MUSIC</span><br>Playing guitar brings joy, creativity, relaxation, and musical expression daily.</li>
+                               <li><span>ADVENTURE</span><br>Adventure fuels my spirit, exploring new places and seeking excitement.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                               <li><span>CLASS 10</span><br>I passed my education from SSRVM (Sri Sri Ravishankar Vidya Mandir) in 2022, proudly.</li>
+                               <li><span>CLASS 12</span><br>I passed my education from TVM (Tripureswari Vidya Mandir) in 2024, with great achievement.</li>
+                               <li><span>SCIENCE FAIR</span><br>I received the State Level Science Fair Award in 2023 for my "Relief from Thieves" Anti-Thief project innovation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-------------services------------>
+<div id="services">
+    <div class="contaier">
+        <h1 class="sub-title">My Works</h1>  
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Creating visually appealing, user-friendly websites with responsive layouts, optimized performance, and seamless navigation experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX design</h2>
+                <p>Focuses on creating intuitive, aesthetically pleasing interfaces that prioritize user experience. It involves research, wireframing, prototyping, and testing to ensure seamless navigation and interaction for all users.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App design</h2>
+                <p>App design involves crafting visually appealing, user-friendly interfaces for mobile applications. It includes wireframing, prototyping, and testing to ensure smooth functionality, intuitive navigation, and an overall engaging experience for users.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>UI/UX DESIGN</h3>
+                    <p>I focus on creating seamless, intuitive interfaces. My work includes wireframing, prototyping, user research, and continuous testing to ensure an optimal user experience and design</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>App Design</h3>
+                    <p>I focus on creating visually appealing, user-friendly mobile interfaces. My work includes wireframing, prototyping, testing, and ensuring seamless functionality for a smooth user experience</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>I create visually stunning, responsive websites. My work includes wireframing, layout design, user interface optimization, and ensuring a seamless, engaging experience across all devices.</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i></i>ssrvm.sandipan.paul1234@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+918837442063</p>
+                <div class="sovial-icons">
+                    <a href="">https://www.facebook.com/<i class="fa-brands fa-facebook"></i></a>
+                    <a href="">https://www.facebook.com/<i class="fa-brands fa-twitter"></i></a>
+                    <a href="">https://www.instagram.com/<i class="fa-brands fa-instagram"></i></a>
+                    <a href="">https://web.whatsapp.com/<i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="Images/Certificate.pdf" download class="btn btn2">Download Certificates</a>
+                 </div>
+            <div class="contact-right"> </div>
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>  
+<button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sandipan Made with <i class="fa-solid fa-heart"></i> by VS Code</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQ47Bcd2LYAudqW7C1nMZASoiPbiUDXXkgdJI6czFHrel3OKPVgQRvvU1_QKdixAKQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
